@@ -34,8 +34,6 @@ pip install pygame pymunk
 python sim.py
 ```
 
----
-
-Libraries Used
+## Libraries Used
 * Pygame – For rendering graphics and handling input
 * Pymunk – A 2D rigid body physics engine wrapper 
