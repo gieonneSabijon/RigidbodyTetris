@@ -132,6 +132,9 @@ while running:
     clearText = font.render(f"Press 'c' to clear pieces", True, (0, 0, 0))
     screen.blit(clearText, (10, 70))
 
+    spawnText = font.render(f"Press 'SPACE' to spawn pieces", True, (0, 0, 0))
+    screen.blit(spawnText, (10, 100))
+
     # Refresh Screen
     pygame.display.flip()
     clock.tick(60)
